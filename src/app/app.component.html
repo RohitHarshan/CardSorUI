@@ -10,7 +10,7 @@
   <div class="row g-2">
     <div class="col-md">
       <div class="form-floating">
-        <select class="form-select" id="selectSuit" aria-label="Floating label select example"
+        <select class="form-select" id="selectSuit"
           (change)="selectChangeSuit($event)" required>
           <option value="0">Select suit</option>
           <option *ngFor="let suit of suits" value="{{suit}}">{{suit}}</option>
@@ -20,7 +20,7 @@
     </div>
     <div class="col-md">
       <div class="form-floating">
-        <select class="form-select" id="selectFace" aria-label="Floating label select example"
+        <select class="form-select" id="selectFace"
           (change)="selectChangeFace($event)" required>
           <option value="0">Select face</option>
           <option *ngFor="let face of faces" value="{{face}}">{{face}}</option>
