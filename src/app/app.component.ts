@@ -40,11 +40,11 @@ export class AppComponent {
         console.log(this.cardList);
       }
       else {
-        alert("Please select another card")
+        alert("Please select another card");
       }
     }
     else {
-      alert("Please select suit and face")
+      alert("Please select suit and face");
     }
   }
 
